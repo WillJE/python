@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>留 言 板</h1>
+    <form action="/message" method="post">
+        <textarea name="author" rows="1" cols="40" placeholder="你的名字"></textarea>
+        <br>
+        <textarea name="message" rows="8" cols="40" placeholder="留言内容"></textarea>
+        <br>
+        <button type="submit">留言</button>
+    </form>
+    {{message}}
+</body>
+</html>
